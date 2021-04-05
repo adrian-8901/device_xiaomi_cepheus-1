@@ -108,6 +108,12 @@
      
      <!-- Whether to show a custom view for FOD -->
     <bool name="config_needCustomFODView">true</bool>
+     
+     
+       <bool name="config_cleanupUnusedFingerprints">true</bool>
+
+     <!-- Shows the required view for in-display fingerprint -->
+    <bool name="config_supportsInDisplayFingerprint">true</bool>
 
     <!-- Default screen brightness for VR setting. Target default value: 0x0BB for EVT1.1. -->
     <!-- 8 bit brightness level of 6 corresponds to the 10 bit brightness level of 0x0B6,
